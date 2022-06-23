@@ -1,4 +1,5 @@
 This project create a vpc, subnets, 2 load balancers, 2 autoscaling groups, 1 s3 bucket, 2 rds instances with passwords stored in ssm, 3 DNS records route traffic to load balancers and s3 buckets.
+You need to change some values in variables.tf.
 
 1. acm_certs.tf: create TLS certificate for domain
 
