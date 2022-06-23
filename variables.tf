@@ -5,7 +5,7 @@ variable "instance_type" {
 
 variable "route53_hosted_zone_name" {
   type    = string
-  default = "YOUR_DOMAIN_NAME."
+  default = "YOUR_DOMAIN_NAME." #remember "."
 }
 
 variable "domain_name" {
